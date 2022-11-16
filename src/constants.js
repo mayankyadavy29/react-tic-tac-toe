@@ -1,0 +1,4 @@
+const N = 3;
+const STARTING_PLAYER_WON = "-";
+const STARTING_PLAYER = "O";
+export { N, STARTING_PLAYER_WON, STARTING_PLAYER };
