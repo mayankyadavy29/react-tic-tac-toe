@@ -6,7 +6,7 @@ function Score({ score, playerWon, playerTurn }) {
       <p className="score">{score["X"]}</p>
       <p
         className={`score ${
-          playerWon === STARTING_PLAYER_WON && playerTurn == "O"
+          playerWon === STARTING_PLAYER_WON && playerTurn === "O"
             ? "score-border"
             : null
         }`}
@@ -15,7 +15,7 @@ function Score({ score, playerWon, playerTurn }) {
       </p>
       <p
         className={`score ${
-          playerWon === STARTING_PLAYER_WON && playerTurn == "X"
+          playerWon === STARTING_PLAYER_WON && playerTurn === "X"
             ? "score-border"
             : null
         }`}
