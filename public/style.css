@@ -73,6 +73,7 @@ td:hover {
   margin: auto;
   text-align: center;
   font-weight: bolder;
+  margin-top: 15px;
 }
 
 .score {
@@ -83,5 +84,6 @@ td:hover {
 
 .score-border {
   box-shadow: 0 2px 5px #ccc;
-  background-color: #fffafa;
+  border-bottom: 4px solid #808080;
+  border-radius: 4px;
 }
