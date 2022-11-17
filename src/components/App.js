@@ -90,7 +90,7 @@ function App() {
         const res = playerTurn === "O" ? "X" : "O";
         setScore((prevScore) => ({
           ...prevScore,
-          [res]: prevScore[res] + 0.5,
+          [res]: prevScore[res] + 1,
         }));
         return res;
       });
